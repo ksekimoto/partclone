@@ -30,7 +30,7 @@ Authors:
 
 %build
 [ -d $RPM_BUILD_ROOT ] && rm -rf $RPM_BUILD_ROOT
-./configure --prefix=%{prefix} --enable-extfs --enable-xfs --enable-hfsp --enable-fat --enable-exfat --enable-f2fs --enable-ntfs --enable-btrfs --enable-minix --enable-ncursesw
+./configure --prefix=%{prefix} --enable-extfs --enable-xfs --enable-hfsp --enable-fat --enable-exfat --enable-f2fs --enable-ntfs --enable-btrfs --enable-minix --enable-ncursesw --enable-static-nss
 #./configure --prefix=%{prefix} --enable-all --enable-static --enable-ncursesw LIBS=-ltinfo 
 make %{?_smp_mflags} CFLAGS="%{optflags}"
 
