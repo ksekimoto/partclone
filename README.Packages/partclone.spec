@@ -1,5 +1,5 @@
 Name:         partclone
-Version:      0.2.88
+Version:      0.3.13
 Release:      1%{?dist}
 Group:        System/Filesystems
 URL:          http://partclone.org/
