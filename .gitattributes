@@ -1,1 +1,7 @@
 src/version.h export-subst
+
+*.rpm	binary
+*.bin	binary
+*.dat	binary
+*.exe	binary
+*.pdf	binary
